@@ -1,7 +1,8 @@
 # immutate
 
 1. `tsc` is unable to determine that types are actually identical when importing from external package.
-2. Seems to cause quite a performance hit. I am developing a larger app that became very slow when I split it into two packages.
+1. Problem due to independent instances of immutable in each package?
+1. Seems to cause quite a performance hit. (I am developing a larger app that became very slow when I split it into two packages to share code.)
 
 # Reproduce
 
